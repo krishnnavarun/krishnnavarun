@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" width="490" height="339">
+  <style>
+    @keyframes slideFadeIn {
+      0% { opacity: 0; transform: translateY(8px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .bg { fill: #0d1117; rx: 10px; ry: 10px; stroke: #30363d; stroke-width: 1.5px; }
+    .header-bar { fill: #161b22; rx: 10px; ry: 10px; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .prompt { font-family: 'Fira Code', 'Consolas', monospace; font-size: 12px; fill: #39d353; font-weight: 600; }
+    .prompt-host { fill: #58a6ff; }
+    .prompt-path { fill: #bc8cff; }
+    .prompt-cmd { fill: #c9d1d9; }
+    
+    .card-key {
+      font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #58a6ff;
+    }
+    .card-val {
+      font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+      font-size: 12px;
+      fill: #c9d1d9;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="520" height="360" class="bg" />
+
+  <!-- Terminal Header Bar -->
+  <path d="M 0 0 h 520 v 36 h -520 Z" class="header-bar" />
+  <circle cx="20" cy="18" r="5" class="dot-red" />
+  <circle cx="36" cy="18" r="5" class="dot-yellow" />
+  <circle cx="52" cy="18" r="5" class="dot-green" />
+
+  <!-- Terminal Prompt Title -->
+  <text x="72" y="22" class="prompt">
+    <tspan class="prompt-host">krishnnavarun@github</tspan>:<tspan class="prompt-path">~</tspan>$ <tspan class="prompt-cmd">neofetch</tspan>
+  </text>
+
+  <!-- Info Key-Values -->
+  <g>
+    <g style="animation: slideFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;">
+      <text x="24" y="65" class="card-key">OS:</text>
+      <text x="119" y="65" class="card-val">GitHub Profile OS x86_64</text>
+    </g>
+    <g style="animation: slideFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;">
+      <text x="24" y="95" class="card-key">Host:</text>
+      <text x="119" y="95" class="card-val">Full-Stack &amp; Systems Developer</text>
+    </g>
+    <g style="animation: slideFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;">
+      <text x="24" y="125" class="card-key">Uptime:</text>
+      <text x="119" y="125" class="card-val">Coding daily since 2022</text>
+    </g>
+    <g style="animation: slideFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both;">
+      <text x="24" y="155" class="card-key">Now:</text>
+      <text x="119" y="155" class="card-val">Building AI Agents, CLI Tools &amp; Interactive SVGs</text>
+    </g>
+    <g style="animation: slideFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s both;">
+      <text x="24" y="185" class="card-key">Prev:</text>
+      <text x="119" y="185" class="card-val">Full-Stack Development, Algorithmic Problem Solving</text>
+    </g>
+    <g style="animation: slideFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.6s both;">
+      <text x="24" y="215" class="card-key">Stack:</text>
+      <text x="119" y="215" class="card-val">Python, TypeScript, React, Next.js, Node.js, C++</text>
+    </g>
+    <g style="animation: slideFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.7s both;">
+      <text x="24" y="245" class="card-key">Highlights:</text>
+      <text x="119" y="245" class="card-val">Daily Cron Automated READMEs • Clean Code • Open Source</text>
+    </g>
+    <g style="animation: slideFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.8s both;">
+      <text x="24" y="275" class="card-key">Terminal:</text>
+      <text x="119" y="275" class="card-val">zsh 5.9 (x86_64-apple-darwin22.0)</text>
+    </g>
+    <g style="animation: slideFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.9s both;">
+      <text x="24" y="305" class="card-key">Palette:</text>
+      <text x="119" y="305" class="card-val">
+        <tspan fill="#ff5f56">■ </tspan>
+        <tspan fill="#ffbd2e">■ </tspan>
+        <tspan fill="#27c93f">■ </tspan>
+        <tspan fill="#58a6ff">■ </tspan>
+        <tspan fill="#bc8cff">■ </tspan>
+        <tspan fill="#39d353">■ </tspan>
+        <tspan fill="#79c0ff">■ </tspan>
+        <tspan fill="#d2a8ff">■ </tspan>
+      </text>
+    </g>
+  </g>
+</svg>

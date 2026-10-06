@@ -1,0 +1,17 @@
+{
+  "username": "krishnnavarun",
+  "fetched_at": "2026-10-06T14:21:00",
+  "total_contributions": 1248,
+  "current_streak": 14,
+  "longest_streak": 42,
+  "best_day_count": 18,
+  "days": [
+    {"date": "2025-10-05", "count": 2, "level": 1},
+    {"date": "2025-10-06", "count": 5, "level": 2},
+    {"date": "2025-10-07", "count": 8, "level": 3},
+    {"date": "2025-10-08", "count": 12, "level": 4},
+    {"date": "2025-10-09", "count": 4, "level": 2},
+    {"date": "2025-10-10", "count": 0, "level": 0},
+    {"date": "2025-10-11", "count": 1, "level": 1}
+  ]
+}

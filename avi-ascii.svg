@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 480" width="370" height="328">
+  <style>
+    .bg { fill: #0d1117; rx: 10px; ry: 10px; stroke: #30363d; stroke-width: 1.5px; }
+    .header-bar { fill: #161b22; rx: 10px; ry: 10px; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .title { font-family: 'Fira Code', 'Consolas', 'Monaco', monospace; font-size: 12px; fill: #8b949e; font-weight: 600; }
+    .ascii-row {
+      font-family: 'Fira Code', 'Cascadia Code', 'Consolas', 'Courier New', monospace;
+      font-size: 10.5px;
+      fill: #58a6ff;
+      white-space: pre;
+    }
+  </style>
+
+  <defs>
+    <clipPath id="clip-row-all">
+      <rect x="0" y="36" width="0" height="444">
+        <animate attributeName="width" from="0" to="540" begin="0.1s" dur="2.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1.0"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Container background -->
+  <rect width="540" height="480" class="bg" />
+  
+  <!-- Terminal Header -->
+  <path d="M 0 0 h 540 v 36 h -540 Z" class="header-bar" />
+  <circle cx="20" cy="18" r="5" class="dot-red" />
+  <circle cx="36" cy="18" r="5" class="dot-yellow" />
+  <circle cx="52" cy="18" r="5" class="dot-green" />
+  <text x="270" y="22" text-anchor="middle" class="title">portrait.ascii</text>
+
+  <!-- ASCII Portrait Content -->
+  <g clip-path="url(#clip-row-all)">
+    <text x="20" y="60" class="ascii-row">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.`:-=+*cs#%@%#sc*+=-:`.</text>
+    <text x="20" y="75" class="ascii-row">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:+cs#%@@@@@@@@@@@@%#sc+:.</text>
+    <text x="20" y="90" class="ascii-row">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:=cs%@@@@@@@@@@@@@@@@@@%sc=:</text>
+    <text x="20" y="105" class="ascii-row">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:+#%@@@@@@@@@@@@@@@@@@@@@@%#+:</text>
+    <text x="20" y="120" class="ascii-row">&#160;&#160;&#160;&#160;&#160;&#160;.*%@@@@@@@@@@@@@@@@@@@@@@@@@@%*.</text>
+    <text x="20" y="135" class="ascii-row">&#160;&#160;&#160;&#160;&#160;=#@@@@@@@@@#*-:::-*#@@@@@@@@@#=</text>
+    <text x="20" y="150" class="ascii-row">&#160;&#160;&#160;&#160;+@@@@@@@@#:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:#@@@@@@@@+</text>
+    <text x="20" y="165" class="ascii-row">&#160;&#160;&#160;*@@@@@@@@:&#160;&#160;+#%@*&#160;&#160;&#160;*@%#+&#160;&#160;:@@@@@@@@*</text>
+    <text x="20" y="180" class="ascii-row">&#160;&#160;%@@@@@@@@.&#160;&#160;%@@@@%&#160;&#160;&#160;%@@@@%&#160;&#160;.@@@@@@@@%</text>
+    <text x="20" y="195" class="ascii-row">&#160;&#160;@@@@@@@@@&#160;&#160;&#160;:#%@%#&#160;&#160;&#160;#%@%#:&#160;&#160;&#160;@@@@@@@@@</text>
+    <text x="20" y="210" class="ascii-row">&#160;&#160;%@@@@@@@@.&#160;&#160;&#160;&#160;..&#160;&#160;:=:&#160;&#160;..&#160;&#160;&#160;&#160;.@@@@@@@@%</text>
+    <text x="20" y="225" class="ascii-row">&#160;&#160;*@@@@@@@@:&#160;&#160;&#160;&#160;&#160;&#160;&#160;:=+&#160;&#160;&#160;&#160;&#160;&#160;&#160;:@@@@@@@@*</text>
+    <text x="20" y="240" class="ascii-row">&#160;&#160;&#160;+@@@@@@@@#:.&#160;&#160;:=+*=-&#160;&#160;.:#@@@@@@@@+</text>
+    <text x="20" y="255" class="ascii-row">&#160;&#160;&#160;&#160;=#@@@@@@@@@#*========*#@@@@@@@@@#=</text>
+    <text x="20" y="270" class="ascii-row">&#160;&#160;&#160;&#160;&#160;.*%@@@@@@@@@@@@@@@@@@@@@@@@@@%*.</text>
+    <text x="20" y="285" class="ascii-row">&#160;&#160;&#160;&#160;&#160;&#160;:+#%@@@@@@@@@@@@@@@@@@@@@@%#+:</text>
+    <text x="20" y="300" class="ascii-row">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:=cs%@@@@@@@@@@@@@@@@@@%sc=:</text>
+    <text x="20" y="315" class="ascii-row">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:+cs#%@@@@@@@@@@@@%#sc+:.</text>
+    <text x="20" y="330" class="ascii-row">&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:+#%@@@@@@@@@@@@@@@@@@%#+:.</text>
+    <text x="20" y="345" class="ascii-row">&#160;&#160;&#160;&#160;.:+#%@@@@@@@@@@@@@@@@@@@@@@@@%#+:.</text>
+    <text x="20" y="360" class="ascii-row">&#160;.:+#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+:.</text>
+    <text x="20" y="375" class="ascii-row">+#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+</text>
+  </g>
+</svg>
